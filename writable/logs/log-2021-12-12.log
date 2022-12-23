@@ -1,0 +1,337 @@
+CRITICAL - 2021-12-12 22:10:54 --> Undefined property: App\Controllers\Customer::$Customer
+#0 C:\xampp7\htdocs\warehouse_manggala\app\Controllers\Customer.php(114): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp7\\htdoc...', 114, Array)
+#1 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Customer->detail('2')
+#2 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+#3 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp7\htdocs\warehouse_manggala\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7\\htdoc...')
+#6 {main}
+CRITICAL - 2021-12-12 22:12:05 --> Undefined property: App\Controllers\Customer::$DetailCustomerModel
+#0 C:\xampp7\htdocs\warehouse_manggala\app\Controllers\Customer.php(114): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp7\\htdoc...', 114, Array)
+#1 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Customer->detail('2')
+#2 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+#3 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp7\htdocs\warehouse_manggala\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7\\htdoc...')
+#6 {main}
+CRITICAL - 2021-12-12 22:12:06 --> Undefined property: App\Controllers\Customer::$DetailCustomerModel
+#0 C:\xampp7\htdocs\warehouse_manggala\app\Controllers\Customer.php(114): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp7\\htdoc...', 114, Array)
+#1 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Customer->detail('2')
+#2 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+#3 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp7\htdocs\warehouse_manggala\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7\\htdoc...')
+#6 {main}
+CRITICAL - 2021-12-12 22:12:10 --> Undefined property: App\Controllers\Customer::$DetailCustomerModel
+#0 C:\xampp7\htdocs\warehouse_manggala\app\Controllers\Customer.php(114): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp7\\htdoc...', 114, Array)
+#1 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Customer->detail('2')
+#2 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+#3 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp7\htdocs\warehouse_manggala\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7\\htdoc...')
+#6 {main}
+CRITICAL - 2021-12-12 22:14:13 --> Undefined property: App\Controllers\Customer::$DetailCustomerModel
+#0 C:\xampp7\htdocs\warehouse_manggala\app\Controllers\Customer.php(114): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp7\\htdoc...', 114, Array)
+#1 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Customer->detail('2')
+#2 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+#3 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp7\htdocs\warehouse_manggala\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7\\htdoc...')
+#6 {main}
+CRITICAL - 2021-12-12 22:14:41 --> Undefined property: App\Controllers\Customer::$DetailCustomerModel
+#0 C:\xampp7\htdocs\warehouse_manggala\app\Controllers\Customer.php(114): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp7\\htdoc...', 114, Array)
+#1 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Customer->detail('2')
+#2 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+#3 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp7\htdocs\warehouse_manggala\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7\\htdoc...')
+#6 {main}
+CRITICAL - 2021-12-12 22:14:42 --> Undefined property: App\Controllers\Customer::$DetailCustomerModel
+#0 C:\xampp7\htdocs\warehouse_manggala\app\Controllers\Customer.php(114): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp7\\htdoc...', 114, Array)
+#1 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Customer->detail('2')
+#2 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+#3 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp7\htdocs\warehouse_manggala\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7\\htdoc...')
+#6 {main}
+CRITICAL - 2021-12-12 22:14:46 --> Undefined property: App\Controllers\Customer::$DetailCustomerModel
+#0 C:\xampp7\htdocs\warehouse_manggala\app\Controllers\Customer.php(114): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp7\\htdoc...', 114, Array)
+#1 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Customer->detail('2')
+#2 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+#3 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp7\htdocs\warehouse_manggala\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7\\htdoc...')
+#6 {main}
+CRITICAL - 2021-12-12 22:15:56 --> Undefined property: App\Controllers\Customer::$DetailCustomerModel
+#0 C:\xampp7\htdocs\warehouse_manggala\app\Controllers\Customer.php(114): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp7\\htdoc...', 114, Array)
+#1 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Customer->detail('2')
+#2 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+#3 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp7\htdocs\warehouse_manggala\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7\\htdoc...')
+#6 {main}
+CRITICAL - 2021-12-12 22:15:57 --> Undefined property: App\Controllers\Customer::$DetailCustomerModel
+#0 C:\xampp7\htdocs\warehouse_manggala\app\Controllers\Customer.php(114): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp7\\htdoc...', 114, Array)
+#1 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Customer->detail('2')
+#2 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+#3 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp7\htdocs\warehouse_manggala\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7\\htdoc...')
+#6 {main}
+CRITICAL - 2021-12-12 22:15:57 --> Undefined property: App\Controllers\Customer::$DetailCustomerModel
+#0 C:\xampp7\htdocs\warehouse_manggala\app\Controllers\Customer.php(114): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp7\\htdoc...', 114, Array)
+#1 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Customer->detail('2')
+#2 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+#3 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp7\htdocs\warehouse_manggala\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7\\htdoc...')
+#6 {main}
+CRITICAL - 2021-12-12 22:15:58 --> Undefined property: App\Controllers\Customer::$DetailCustomerModel
+#0 C:\xampp7\htdocs\warehouse_manggala\app\Controllers\Customer.php(114): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp7\\htdoc...', 114, Array)
+#1 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Customer->detail('2')
+#2 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+#3 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp7\htdocs\warehouse_manggala\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7\\htdoc...')
+#6 {main}
+ERROR - 2021-12-12 22:17:52 --> Table 'db_warehouse_manggala.detailcustomer' doesn't exist
+CRITICAL - 2021-12-12 22:17:52 --> Table 'db_warehouse_manggala.detailcustomer' doesn't exist
+#0 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\xampp7\htdocs\warehouse_manggala\app\Models\DetailCustomerModel.php(48): CodeIgniter\BaseModel->first()
+#7 C:\xampp7\htdocs\warehouse_manggala\app\Controllers\Customer.php(115): App\Models\DetailCustomerModel->getData('2')
+#8 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Customer->detail('2')
+#9 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+#10 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp7\htdocs\warehouse_manggala\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7\\htdoc...')
+#13 {main}
+ERROR - 2021-12-12 22:19:05 --> Table 'db_warehouse_manggala.customerdetail' doesn't exist
+CRITICAL - 2021-12-12 22:19:05 --> Table 'db_warehouse_manggala.customerdetail' doesn't exist
+#0 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\xampp7\htdocs\warehouse_manggala\app\Models\CustomerDetailModel.php(48): CodeIgniter\BaseModel->first()
+#7 C:\xampp7\htdocs\warehouse_manggala\app\Controllers\Customer.php(115): App\Models\CustomerDetailModel->getData('2')
+#8 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Customer->detail('2')
+#9 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+#10 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp7\htdocs\warehouse_manggala\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7\\htdoc...')
+#13 {main}
+ERROR - 2021-12-12 22:19:06 --> Table 'db_warehouse_manggala.customerdetail' doesn't exist
+CRITICAL - 2021-12-12 22:19:06 --> Table 'db_warehouse_manggala.customerdetail' doesn't exist
+#0 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\xampp7\htdocs\warehouse_manggala\app\Models\CustomerDetailModel.php(48): CodeIgniter\BaseModel->first()
+#7 C:\xampp7\htdocs\warehouse_manggala\app\Controllers\Customer.php(115): App\Models\CustomerDetailModel->getData('2')
+#8 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Customer->detail('2')
+#9 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+#10 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp7\htdocs\warehouse_manggala\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7\\htdoc...')
+#13 {main}
+ERROR - 2021-12-12 22:19:10 --> Table 'db_warehouse_manggala.customerdetail' doesn't exist
+CRITICAL - 2021-12-12 22:19:10 --> Table 'db_warehouse_manggala.customerdetail' doesn't exist
+#0 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\xampp7\htdocs\warehouse_manggala\app\Models\CustomerDetailModel.php(48): CodeIgniter\BaseModel->first()
+#7 C:\xampp7\htdocs\warehouse_manggala\app\Controllers\Customer.php(115): App\Models\CustomerDetailModel->getData('2')
+#8 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Customer->detail('2')
+#9 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+#10 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp7\htdocs\warehouse_manggala\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7\\htdoc...')
+#13 {main}
+CRITICAL - 2021-12-12 22:25:08 --> Illegal string offset 'alamat'
+#0 C:\xampp7\htdocs\warehouse_manggala\app\Views\customer\detail.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\xampp7\\htdoc...', 38, Array)
+#1 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp7\\htdoc...')
+#2 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('/Customer/detai...', Array, true)
+#4 C:\xampp7\htdocs\warehouse_manggala\app\Controllers\Customer.php(117): view('/Customer/detai...', Array)
+#5 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Customer->detail('2')
+#6 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+#7 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp7\htdocs\warehouse_manggala\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7\\htdoc...')
+#10 {main}
+CRITICAL - 2021-12-12 22:26:57 --> Illegal string offset 'alamat'
+#0 C:\xampp7\htdocs\warehouse_manggala\app\Views\customer\detail.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\xampp7\\htdoc...', 38, Array)
+#1 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp7\\htdoc...')
+#2 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('/Customer/detai...', Array, true)
+#4 C:\xampp7\htdocs\warehouse_manggala\app\Controllers\Customer.php(117): view('/Customer/detai...', Array)
+#5 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Customer->detail('2')
+#6 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+#7 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp7\htdocs\warehouse_manggala\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7\\htdoc...')
+#10 {main}
+CRITICAL - 2021-12-12 22:26:58 --> Illegal string offset 'alamat'
+#0 C:\xampp7\htdocs\warehouse_manggala\app\Views\customer\detail.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\xampp7\\htdoc...', 38, Array)
+#1 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp7\\htdoc...')
+#2 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('/Customer/detai...', Array, true)
+#4 C:\xampp7\htdocs\warehouse_manggala\app\Controllers\Customer.php(117): view('/Customer/detai...', Array)
+#5 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Customer->detail('2')
+#6 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+#7 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp7\htdocs\warehouse_manggala\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7\\htdoc...')
+#10 {main}
+CRITICAL - 2021-12-12 22:27:13 --> Illegal string offset 'km'
+#0 C:\xampp7\htdocs\warehouse_manggala\app\Views\customer\detail.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\xampp7\\htdoc...', 39, Array)
+#1 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp7\\htdoc...')
+#2 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('/Customer/detai...', Array, true)
+#4 C:\xampp7\htdocs\warehouse_manggala\app\Controllers\Customer.php(117): view('/Customer/detai...', Array)
+#5 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Customer->detail('2')
+#6 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+#7 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp7\htdocs\warehouse_manggala\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7\\htdoc...')
+#10 {main}
+CRITICAL - 2021-12-12 22:28:30 --> Undefined variable: i
+#0 C:\xampp7\htdocs\warehouse_manggala\app\Views\customer\detail.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp7\\htdoc...', 34, Array)
+#1 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp7\\htdoc...')
+#2 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('/Customer/detai...', Array, true)
+#4 C:\xampp7\htdocs\warehouse_manggala\app\Controllers\Customer.php(117): view('/Customer/detai...', Array)
+#5 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Customer->detail('2')
+#6 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+#7 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp7\htdocs\warehouse_manggala\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7\\htdoc...')
+#10 {main}
+CRITICAL - 2021-12-12 22:33:48 --> Illegal string offset 'alamat'
+#0 C:\xampp7\htdocs\warehouse_manggala\app\Views\customer\detail.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\xampp7\\htdoc...', 37, Array)
+#1 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp7\\htdoc...')
+#2 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('/Customer/detai...', Array, true)
+#4 C:\xampp7\htdocs\warehouse_manggala\app\Controllers\Customer.php(117): view('/Customer/detai...', Array)
+#5 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Customer->detail('8')
+#6 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+#7 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp7\htdocs\warehouse_manggala\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7\\htdoc...')
+#10 {main}
+CRITICAL - 2021-12-12 22:35:00 --> Call to undefined method App\Models\CustomerDetailModel::All
+#0 C:\xampp7\htdocs\warehouse_manggala\app\Models\CustomerDetailModel.php(48): CodeIgniter\Model->__call('All', Array)
+#1 C:\xampp7\htdocs\warehouse_manggala\app\Controllers\Customer.php(115): App\Models\CustomerDetailModel->getData('8')
+#2 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Customer->detail('8')
+#3 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+#4 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp7\htdocs\warehouse_manggala\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7\\htdoc...')
+#7 {main}
+CRITICAL - 2021-12-12 22:36:12 --> syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')'
+#0 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp7\\htdoc...')
+#1 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Cust...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Cust...')
+#3 C:\xampp7\htdocs\warehouse_manggala\app\Controllers\Customer.php(14): spl_autoload_call('App\\Models\\Cust...')
+#4 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(801): App\Controllers\Customer->__construct()
+#5 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#6 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp7\htdocs\warehouse_manggala\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7\\htdoc...')
+#9 {main}
+CRITICAL - 2021-12-12 23:13:07 --> Call to undefined method App\Models\CustomerModel::getData
+#0 C:\xampp7\htdocs\warehouse_manggala\app\Controllers\Customer.php(116): CodeIgniter\Model->__call('getData', Array)
+#1 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Customer->detail('8')
+#2 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+#3 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp7\htdocs\warehouse_manggala\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7\\htdoc...')
+#6 {main}
+CRITICAL - 2021-12-12 23:21:11 --> Invalid file: /Customer/ubah.php
+#0 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/Customer/ubah....')
+#1 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('/Customer/ubah', Array, true)
+#2 C:\xampp7\htdocs\warehouse_manggala\app\Controllers\Customer.php(71): view('/Customer/ubah', Array)
+#3 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Customer->edit('10')
+#4 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+#5 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp7\htdocs\warehouse_manggala\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7\\htdoc...')
+#8 {main}
+CRITICAL - 2021-12-12 23:26:23 --> Allowed fields must be specified for model: App\Models\CustomerModel
+#0 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\BaseModel.php(1138): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\Cust...')
+#1 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\BaseModel.php(713): CodeIgniter\BaseModel->doProtectFields(Array)
+#2 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, false)
+#3 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#4 C:\xampp7\htdocs\warehouse_manggala\app\Controllers\Customer.php(60): CodeIgniter\BaseModel->save(Array)
+#5 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Customer->save()
+#6 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+#7 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp7\htdocs\warehouse_manggala\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7\\htdoc...')
+#10 {main}
+CRITICAL - 2021-12-12 23:39:46 --> Undefined property: App\Controllers\CustomerDetail::$Model
+#0 C:\xampp7\htdocs\warehouse_manggala\app\Controllers\CustomerDetail.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp7\\htdoc...', 24, Array)
+#1 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\CustomerDetail->index('2')
+#2 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerDetail))
+#3 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp7\htdocs\warehouse_manggala\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7\\htdoc...')
+#6 {main}
+CRITICAL - 2021-12-12 23:41:41 --> Too few arguments to function App\Controllers\CustomerDetail::index(), 0 passed in C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php on line 824 and exactly 1 expected
+#0 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\CustomerDetail->index()
+#1 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerDetail))
+#2 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp7\htdocs\warehouse_manggala\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7\\htdoc...')
+#5 {main}
+CRITICAL - 2021-12-12 23:42:51 --> Undefined index: zzz
+#0 C:\xampp7\htdocs\warehouse_manggala\app\Views\customer\ubah.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp7\\htdoc...', 29, Array)
+#1 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp7\\htdoc...')
+#2 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('/Customer/ubah', Array, true)
+#4 C:\xampp7\htdocs\warehouse_manggala\app\Controllers\Customer.php(74): view('/Customer/ubah', Array)
+#5 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Customer->edit('2')
+#6 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+#7 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp7\htdocs\warehouse_manggala\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7\\htdoc...')
+#10 {main}
+CRITICAL - 2021-12-12 23:54:30 --> Too few arguments to function App\Controllers\CustomerDetail::index(), 0 passed in C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php on line 824 and exactly 1 expected
+#0 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\CustomerDetail->index()
+#1 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerDetail))
+#2 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp7\htdocs\warehouse_manggala\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7\\htdoc...')
+#5 {main}
+CRITICAL - 2021-12-12 23:54:56 --> Too few arguments to function App\Controllers\CustomerDetail::index(), 0 passed in C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php on line 824 and exactly 1 expected
+#0 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\CustomerDetail->index()
+#1 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerDetail))
+#2 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp7\htdocs\warehouse_manggala\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7\\htdoc...')
+#5 {main}
+CRITICAL - 2021-12-12 23:55:08 --> Too few arguments to function App\Controllers\CustomerDetail::index(), 0 passed in C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php on line 824 and exactly 1 expected
+#0 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\CustomerDetail->index()
+#1 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerDetail))
+#2 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp7\htdocs\warehouse_manggala\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7\\htdoc...')
+#5 {main}
+CRITICAL - 2021-12-12 23:58:31 --> Too few arguments to function App\Controllers\CustomerDetail::index(), 0 passed in C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php on line 824 and exactly 1 expected
+#0 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\CustomerDetail->index()
+#1 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerDetail))
+#2 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp7\htdocs\warehouse_manggala\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7\\htdoc...')
+#5 {main}

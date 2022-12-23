@@ -1,0 +1,24 @@
+ERROR - 2022-09-27 04:26:15 --> Error connecting to the database: Unknown database 'db_warehouse_manggala'
+CRITICAL - 2022-09-27 04:26:15 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'db_warehouse_manggala'
+#0 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 C:\xampp7\htdocs\warehouse_manggala\app\Controllers\LoginAdmin.php(24): CodeIgniter\BaseModel->first()
+#5 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\LoginAdmin->auth()
+#6 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginAdmin))
+#7 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp7\htdocs\warehouse_manggala\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7\\htdoc...')
+#10 {main}
+CRITICAL - 2022-09-27 04:26:15 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in C:\xampp7\htdocs\warehouse_manggala\app\Views\errors\html\error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'C:\\xampp7\\htdoc...', 96, Array)
+#1 C:\xampp7\htdocs\warehouse_manggala\app\Views\errors\html\error_exception.php(96): print_r(Object(App\Controllers\LoginAdmin), true)
+#2 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\Debug\Exceptions.php(229): include('C:\\xampp7\\htdoc...')
+#3 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\Debug\Exceptions.php(232): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\Debug\Exceptions.php(116): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\D
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}

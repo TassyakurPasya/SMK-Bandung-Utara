@@ -1,0 +1,16 @@
+CRITICAL - 2022-01-14 01:29:04 --> Call to undefined method App\Models\POModel::countAllResult
+#0 C:\xampp7\htdocs\warehouse_manggala\app\Controllers\PO.php(58): CodeIgniter\Model->__call('countAllResult', Array)
+#1 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\PO->save()
+#2 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PO))
+#3 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp7\htdocs\warehouse_manggala\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7\\htdoc...')
+#6 {main}
+CRITICAL - 2022-01-14 01:29:10 --> Call to undefined method App\Models\POModel::countAllResult
+#0 C:\xampp7\htdocs\warehouse_manggala\app\Controllers\PO.php(58): CodeIgniter\Model->__call('countAllResult', Array)
+#1 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\PO->save()
+#2 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PO))
+#3 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp7\htdocs\warehouse_manggala\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7\\htdoc...')
+#6 {main}

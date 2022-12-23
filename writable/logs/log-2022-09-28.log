@@ -1,0 +1,748 @@
+ERROR - 2022-09-28 21:22:47 --> Error connecting to the database: Unknown database 'db_manggala'
+CRITICAL - 2022-09-28 21:22:47 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'db_manggala'
+#0 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp7\htdocs\perpus_kabayan\app\Models\StockBarangModel.php(52): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp7\htdocs\perpus_kabayan\app\Controllers\Dashboard.php(32): App\Models\StockBarangModel->getStockDetail()
+#4 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Dashboard->index()
+#5 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#6 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp7\htdocs\perpus_kabayan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7\\htdoc...')
+#9 {main}
+CRITICAL - 2022-09-28 21:22:47 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in C:\xampp7\htdocs\perpus_kabayan\app\Views\errors\html\error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'C:\\xampp7\\htdoc...', 96, Array)
+#1 C:\xampp7\htdocs\perpus_kabayan\app\Views\errors\html\error_exception.php(96): print_r(Object(App\Controllers\Dashboard), true)
+#2 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\Debug\Exceptions.php(229): include('C:\\xampp7\\htdoc...')
+#3 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\Debug\Exceptions.php(232): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\Debug\Exceptions.php(116): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\Da
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2022-09-28 21:28:09 --> Error connecting to the database: Unknown database 'db_manggala'
+CRITICAL - 2022-09-28 21:28:09 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'db_manggala'
+#0 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp7\htdocs\perpus_kabayan\app\Models\StockBarangModel.php(52): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp7\htdocs\perpus_kabayan\app\Controllers\Dashboard.php(32): App\Models\StockBarangModel->getStockDetail()
+#4 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Dashboard->index()
+#5 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#6 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp7\htdocs\perpus_kabayan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7\\htdoc...')
+#9 {main}
+CRITICAL - 2022-09-28 21:28:09 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in C:\xampp7\htdocs\perpus_kabayan\app\Views\errors\html\error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'C:\\xampp7\\htdoc...', 96, Array)
+#1 C:\xampp7\htdocs\perpus_kabayan\app\Views\errors\html\error_exception.php(96): print_r(Object(App\Controllers\Dashboard), true)
+#2 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\Debug\Exceptions.php(229): include('C:\\xampp7\\htdoc...')
+#3 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\Debug\Exceptions.php(232): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\Debug\Exceptions.php(116): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\Da
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2022-09-28 21:28:11 --> Error connecting to the database: Unknown database 'db_manggala'
+CRITICAL - 2022-09-28 21:28:11 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'db_manggala'
+#0 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp7\htdocs\perpus_kabayan\app\Models\StockBarangModel.php(52): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp7\htdocs\perpus_kabayan\app\Controllers\Dashboard.php(32): App\Models\StockBarangModel->getStockDetail()
+#4 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Dashboard->index()
+#5 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#6 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp7\htdocs\perpus_kabayan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7\\htdoc...')
+#9 {main}
+CRITICAL - 2022-09-28 21:28:11 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in C:\xampp7\htdocs\perpus_kabayan\app\Views\errors\html\error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'C:\\xampp7\\htdoc...', 96, Array)
+#1 C:\xampp7\htdocs\perpus_kabayan\app\Views\errors\html\error_exception.php(96): print_r(Object(App\Controllers\Dashboard), true)
+#2 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\Debug\Exceptions.php(229): include('C:\\xampp7\\htdoc...')
+#3 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\Debug\Exceptions.php(232): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\Debug\Exceptions.php(116): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\Da
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2022-09-28 21:30:12 --> Table 'db_warehouse_manggala.stock_barang' doesn't exist
+CRITICAL - 2022-09-28 21:30:12 --> Table 'db_warehouse_manggala.stock_barang' doesn't exist
+#0 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp7\htdocs\perpus_kabayan\app\Models\StockBarangModel.php(52): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp7\htdocs\perpus_kabayan\app\Controllers\Dashboard.php(32): App\Models\StockBarangModel->getStockDetail()
+#6 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Dashboard->index()
+#7 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#8 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp7\htdocs\perpus_kabayan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7\\htdoc...')
+#11 {main}
+ERROR - 2022-09-28 21:31:06 --> Error connecting to the database: Unknown database 'db_manggala'
+CRITICAL - 2022-09-28 21:31:06 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'db_manggala'
+#0 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp7\htdocs\perpus_kabayan\app\Models\StockBarangModel.php(52): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp7\htdocs\perpus_kabayan\app\Controllers\Dashboard.php(32): App\Models\StockBarangModel->getStockDetail()
+#4 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Dashboard->index()
+#5 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#6 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp7\htdocs\perpus_kabayan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7\\htdoc...')
+#9 {main}
+CRITICAL - 2022-09-28 21:31:06 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in C:\xampp7\htdocs\perpus_kabayan\app\Views\errors\html\error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'C:\\xampp7\\htdoc...', 96, Array)
+#1 C:\xampp7\htdocs\perpus_kabayan\app\Views\errors\html\error_exception.php(96): print_r(Object(App\Controllers\Dashboard), true)
+#2 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\Debug\Exceptions.php(229): include('C:\\xampp7\\htdoc...')
+#3 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\Debug\Exceptions.php(232): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\Debug\Exceptions.php(116): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\Da
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2022-09-28 21:31:39 --> Table 'db_perpus_kabayan.stock_barang' doesn't exist
+CRITICAL - 2022-09-28 21:31:39 --> Table 'db_perpus_kabayan.stock_barang' doesn't exist
+#0 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp7\htdocs\perpus_kabayan\app\Models\StockBarangModel.php(52): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp7\htdocs\perpus_kabayan\app\Controllers\Dashboard.php(32): App\Models\StockBarangModel->getStockDetail()
+#6 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Dashboard->index()
+#7 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#8 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp7\htdocs\perpus_kabayan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7\\htdoc...')
+#11 {main}
+CRITICAL - 2022-09-28 21:32:38 --> Undefined variable: dataPO
+#0 C:\xampp7\htdocs\perpus_kabayan\app\Views\dashboard\index.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp7\\htdoc...', 11, Array)
+#1 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp7\\htdoc...')
+#2 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('/Dashboard/inde...', Array, true)
+#4 C:\xampp7\htdocs\perpus_kabayan\app\Controllers\Dashboard.php(22): view('/Dashboard/inde...')
+#5 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Dashboard->index()
+#6 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp7\htdocs\perpus_kabayan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7\\htdoc...')
+#10 {main}
+CRITICAL - 2022-09-28 21:56:03 --> db_perpus_kabayan is not a valid database connection group.
+#0 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\Model.php(97): CodeIgniter\Database\Config::connect('db_perpus_kabay...')
+#1 C:\xampp7\htdocs\perpus_kabayan\app\Controllers\Buku.php(13): CodeIgniter\Model->__construct()
+#2 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(801): App\Controllers\Buku->__construct()
+#3 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#4 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp7\htdocs\perpus_kabayan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7\\htdoc...')
+#7 {main}
+CRITICAL - 2022-09-28 21:56:38 --> db_perpus_kabayan is not a valid database connection group.
+#0 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\Model.php(97): CodeIgniter\Database\Config::connect('db_perpus_kabay...')
+#1 C:\xampp7\htdocs\perpus_kabayan\app\Controllers\Buku.php(13): CodeIgniter\Model->__construct()
+#2 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(801): App\Controllers\Buku->__construct()
+#3 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#4 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp7\htdocs\perpus_kabayan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7\\htdoc...')
+#7 {main}
+CRITICAL - 2022-09-28 21:56:43 --> db_perpus_kabayan is not a valid database connection group.
+#0 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\Model.php(97): CodeIgniter\Database\Config::connect('db_perpus_kabay...')
+#1 C:\xampp7\htdocs\perpus_kabayan\app\Controllers\Buku.php(13): CodeIgniter\Model->__construct()
+#2 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(801): App\Controllers\Buku->__construct()
+#3 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#4 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp7\htdocs\perpus_kabayan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7\\htdoc...')
+#7 {main}
+CRITICAL - 2022-09-28 21:58:19 --> db_perpus_kabayan is not a valid database connection group.
+#0 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\Model.php(97): CodeIgniter\Database\Config::connect('db_perpus_kabay...')
+#1 C:\xampp7\htdocs\perpus_kabayan\app\Controllers\Buku.php(13): CodeIgniter\Model->__construct()
+#2 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(801): App\Controllers\Buku->__construct()
+#3 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#4 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp7\htdocs\perpus_kabayan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7\\htdoc...')
+#7 {main}
+CRITICAL - 2022-09-28 21:58:20 --> db_perpus_kabayan is not a valid database connection group.
+#0 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\Model.php(97): CodeIgniter\Database\Config::connect('db_perpus_kabay...')
+#1 C:\xampp7\htdocs\perpus_kabayan\app\Controllers\Buku.php(13): CodeIgniter\Model->__construct()
+#2 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(801): App\Controllers\Buku->__construct()
+#3 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#4 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp7\htdocs\perpus_kabayan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7\\htdoc...')
+#7 {main}
+CRITICAL - 2022-09-28 21:58:39 --> db_perpus_kabayan is not a valid database connection group.
+#0 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\Model.php(97): CodeIgniter\Database\Config::connect('db_perpus_kabay...')
+#1 C:\xampp7\htdocs\perpus_kabayan\app\Controllers\Buku.php(13): CodeIgniter\Model->__construct()
+#2 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(801): App\Controllers\Buku->__construct()
+#3 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#4 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp7\htdocs\perpus_kabayan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7\\htdoc...')
+#7 {main}
+CRITICAL - 2022-09-28 21:58:41 --> db_perpus_kabayan is not a valid database connection group.
+#0 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\Model.php(97): CodeIgniter\Database\Config::connect('db_perpus_kabay...')
+#1 C:\xampp7\htdocs\perpus_kabayan\app\Controllers\Buku.php(13): CodeIgniter\Model->__construct()
+#2 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(801): App\Controllers\Buku->__construct()
+#3 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#4 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp7\htdocs\perpus_kabayan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7\\htdoc...')
+#7 {main}
+CRITICAL - 2022-09-28 21:58:41 --> db_perpus_kabayan is not a valid database connection group.
+#0 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\Model.php(97): CodeIgniter\Database\Config::connect('db_perpus_kabay...')
+#1 C:\xampp7\htdocs\perpus_kabayan\app\Controllers\Buku.php(13): CodeIgniter\Model->__construct()
+#2 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(801): App\Controllers\Buku->__construct()
+#3 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#4 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp7\htdocs\perpus_kabayan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7\\htdoc...')
+#7 {main}
+CRITICAL - 2022-09-28 21:58:41 --> db_perpus_kabayan is not a valid database connection group.
+#0 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\Model.php(97): CodeIgniter\Database\Config::connect('db_perpus_kabay...')
+#1 C:\xampp7\htdocs\perpus_kabayan\app\Controllers\Buku.php(13): CodeIgniter\Model->__construct()
+#2 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(801): App\Controllers\Buku->__construct()
+#3 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#4 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp7\htdocs\perpus_kabayan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7\\htdoc...')
+#7 {main}
+CRITICAL - 2022-09-28 21:59:40 --> db_perpus_kabayan is not a valid database connection group.
+#0 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\Model.php(97): CodeIgniter\Database\Config::connect('db_perpus_kabay...')
+#1 C:\xampp7\htdocs\perpus_kabayan\app\Controllers\Buku.php(13): CodeIgniter\Model->__construct()
+#2 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(801): App\Controllers\Buku->__construct()
+#3 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#4 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp7\htdocs\perpus_kabayan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7\\htdoc...')
+#7 {main}
+CRITICAL - 2022-09-28 22:00:48 --> db_perpus_kabayan is not a valid database connection group.
+#0 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\Model.php(97): CodeIgniter\Database\Config::connect('db_perpus_kabay...')
+#1 C:\xampp7\htdocs\perpus_kabayan\app\Controllers\Buku.php(13): CodeIgniter\Model->__construct()
+#2 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(801): App\Controllers\Buku->__construct()
+#3 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#4 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp7\htdocs\perpus_kabayan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7\\htdoc...')
+#7 {main}
+CRITICAL - 2022-09-28 22:00:54 --> db_perpus_kabayan is not a valid database connection group.
+#0 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\Model.php(97): CodeIgniter\Database\Config::connect('db_perpus_kabay...')
+#1 C:\xampp7\htdocs\perpus_kabayan\app\Controllers\Buku.php(13): CodeIgniter\Model->__construct()
+#2 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(801): App\Controllers\Buku->__construct()
+#3 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#4 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp7\htdocs\perpus_kabayan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7\\htdoc...')
+#7 {main}
+CRITICAL - 2022-09-28 22:04:10 --> db_perpus_kabayan is not a valid database connection group.
+#0 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\Model.php(97): CodeIgniter\Database\Config::connect('db_perpus_kabay...')
+#1 C:\xampp7\htdocs\perpus_kabayan\app\Controllers\Buku.php(13): CodeIgniter\Model->__construct()
+#2 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(801): App\Controllers\Buku->__construct()
+#3 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#4 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp7\htdocs\perpus_kabayan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7\\htdoc...')
+#7 {main}
+CRITICAL - 2022-09-28 22:04:11 --> db_perpus_kabayan is not a valid database connection group.
+#0 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\Model.php(97): CodeIgniter\Database\Config::connect('db_perpus_kabay...')
+#1 C:\xampp7\htdocs\perpus_kabayan\app\Controllers\Buku.php(13): CodeIgniter\Model->__construct()
+#2 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(801): App\Controllers\Buku->__construct()
+#3 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#4 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp7\htdocs\perpus_kabayan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7\\htdoc...')
+#7 {main}
+CRITICAL - 2022-09-28 22:04:20 --> db_perpus_kabayan is not a valid database connection group.
+#0 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\Model.php(97): CodeIgniter\Database\Config::connect('db_perpus_kabay...')
+#1 C:\xampp7\htdocs\perpus_kabayan\app\Controllers\Buku.php(13): CodeIgniter\Model->__construct()
+#2 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(801): App\Controllers\Buku->__construct()
+#3 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#4 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp7\htdocs\perpus_kabayan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7\\htdoc...')
+#7 {main}
+CRITICAL - 2022-09-28 22:09:26 --> Invalid argument supplied for foreach()
+#0 C:\xampp7\htdocs\perpus_kabayan\app\Views\buku\index.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp7\\htdoc...', 31, Array)
+#1 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp7\\htdoc...')
+#2 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('Buku/index', Array, true)
+#4 C:\xampp7\htdocs\perpus_kabayan\app\Controllers\Buku.php(25): view('Buku/index', Array)
+#5 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Buku->index()
+#6 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+#7 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp7\htdocs\perpus_kabayan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7\\htdoc...')
+#10 {main}
+CRITICAL - 2022-09-28 22:10:01 --> Undefined property: App\Controllers\Buku::$BukuModel
+#0 C:\xampp7\htdocs\perpus_kabayan\app\Controllers\Buku.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp7\\htdoc...', 23, Array)
+#1 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Buku->index()
+#2 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+#3 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp7\htdocs\perpus_kabayan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7\\htdoc...')
+#6 {main}
+CRITICAL - 2022-09-28 22:11:08 --> db_perpus_kabayan is not a valid database connection group.
+#0 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\Model.php(97): CodeIgniter\Database\Config::connect('db_perpus_kabay...')
+#1 C:\xampp7\htdocs\perpus_kabayan\app\Controllers\Buku.php(13): CodeIgniter\Model->__construct()
+#2 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(801): App\Controllers\Buku->__construct()
+#3 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#4 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp7\htdocs\perpus_kabayan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7\\htdoc...')
+#7 {main}
+CRITICAL - 2022-09-28 22:11:09 --> db_perpus_kabayan is not a valid database connection group.
+#0 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\Model.php(97): CodeIgniter\Database\Config::connect('db_perpus_kabay...')
+#1 C:\xampp7\htdocs\perpus_kabayan\app\Controllers\Buku.php(13): CodeIgniter\Model->__construct()
+#2 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(801): App\Controllers\Buku->__construct()
+#3 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#4 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp7\htdocs\perpus_kabayan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7\\htdoc...')
+#7 {main}
+CRITICAL - 2022-09-28 22:24:11 --> Call to undefined method App\Models\BukuModel::getData
+#0 C:\xampp7\htdocs\perpus_kabayan\app\Controllers\Buku.php(67): CodeIgniter\Model->__call('getData', Array)
+#1 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Buku->edit('3')
+#2 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+#3 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp7\htdocs\perpus_kabayan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7\\htdoc...')
+#6 {main}
+CRITICAL - 2022-09-28 22:25:18 --> Undefined index: id
+#0 C:\xampp7\htdocs\perpus_kabayan\app\Views\buku\ubah.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp7\\htdoc...', 24, Array)
+#1 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp7\\htdoc...')
+#2 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('/buku/ubah', Array, true)
+#4 C:\xampp7\htdocs\perpus_kabayan\app\Controllers\Buku.php(69): view('/buku/ubah', Array)
+#5 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Buku->edit('3')
+#6 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+#7 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp7\htdocs\perpus_kabayan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7\\htdoc...')
+#10 {main}
+CRITICAL - 2022-09-28 22:27:27 --> Too few arguments to function App\Controllers\Buku::edit(), 0 passed in C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php on line 824 and exactly 1 expected
+#0 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Buku->edit()
+#1 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+#2 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp7\htdocs\perpus_kabayan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7\\htdoc...')
+#5 {main}
+ERROR - 2022-09-28 22:34:30 --> Table 'db_perpus_kabayan.supplier' doesn't exist
+CRITICAL - 2022-09-28 22:34:30 --> Table 'db_perpus_kabayan.supplier' doesn't exist
+#0 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp7\htdocs\perpus_kabayan\app\Controllers\Supplier.php(22): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Supplier->index()
+#8 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#9 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp7\htdocs\perpus_kabayan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7\\htdoc...')
+#12 {main}
+CRITICAL - 2022-09-28 22:39:57 --> Cannot declare class App\Controllers\Zzz, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-09-28 22:40:36 --> Cannot declare class App\Controllers\Zzz, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-09-28 22:41:32 --> Cannot declare class App\Controllers\Zzz, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-09-28 22:41:37 --> Cannot declare class App\Controllers\Zzz, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-09-28 22:42:04 --> Class 'App\Models\Pinjaman' not found
+#0 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(801): App\Controllers\Pinjaman->__construct()
+#1 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp7\htdocs\perpus_kabayan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7\\htdoc...')
+#5 {main}
+CRITICAL - 2022-09-28 22:42:17 --> Undefined index: id
+#0 C:\xampp7\htdocs\perpus_kabayan\app\Views\pinjaman\index.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp7\\htdoc...', 38, Array)
+#1 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp7\\htdoc...')
+#2 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('Pinjaman/index', Array, true)
+#4 C:\xampp7\htdocs\perpus_kabayan\app\Controllers\Pinjaman.php(24): view('Pinjaman/index', Array)
+#5 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Pinjaman->index()
+#6 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pinjaman))
+#7 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp7\htdocs\perpus_kabayan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7\\htdoc...')
+#10 {main}
+CRITICAL - 2022-09-28 22:43:07 --> syntax error, unexpected ''['' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';'
+#0 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('Pinjaman/index', Array, true)
+#2 C:\xampp7\htdocs\perpus_kabayan\app\Controllers\Pinjaman.php(24): view('Pinjaman/index', Array)
+#3 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Pinjaman->index()
+#4 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pinjaman))
+#5 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp7\htdocs\perpus_kabayan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7\\htdoc...')
+#8 {main}
+CRITICAL - 2022-09-28 23:04:53 --> syntax error, unexpected ','
+#0 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute('Pinjaman/save')
+#1 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle('Pinjaman/save')
+#2 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp7\htdocs\perpus_kabayan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7\\htdoc...')
+#6 {main}
+CRITICAL - 2022-09-28 23:05:15 --> Undefined offset: 2
+#0 C:\xampp7\htdocs\perpus_kabayan\app\Controllers\Pinjaman.php(50): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp7\\htdoc...', 50, Array)
+#1 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Pinjaman->save()
+#2 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pinjaman))
+#3 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp7\htdocs\perpus_kabayan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7\\htdoc...')
+#6 {main}
+CRITICAL - 2022-09-28 23:05:32 --> Undefined offset: 2
+#0 C:\xampp7\htdocs\perpus_kabayan\app\Controllers\Pinjaman.php(50): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp7\\htdoc...', 50, Array)
+#1 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Pinjaman->save()
+#2 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pinjaman))
+#3 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp7\htdocs\perpus_kabayan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7\\htdoc...')
+#6 {main}
+CRITICAL - 2022-09-28 23:08:57 --> Call to undefined method App\Models\PinjamanModel::getData
+#0 C:\xampp7\htdocs\perpus_kabayan\app\Controllers\Pinjaman.php(71): CodeIgniter\Model->__call('getData', Array)
+#1 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Pinjaman->edit('1')
+#2 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pinjaman))
+#3 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp7\htdocs\perpus_kabayan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7\\htdoc...')
+#6 {main}
+CRITICAL - 2022-09-28 23:11:21 --> Call to undefined method App\Models\PinjamanModel::getData
+#0 C:\xampp7\htdocs\perpus_kabayan\app\Controllers\Pinjaman.php(71): CodeIgniter\Model->__call('getData', Array)
+#1 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Pinjaman->edit('1')
+#2 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pinjaman))
+#3 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp7\htdocs\perpus_kabayan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7\\htdoc...')
+#6 {main}
+CRITICAL - 2022-09-28 23:11:27 --> Call to undefined method App\Models\PinjamanModel::getData
+#0 C:\xampp7\htdocs\perpus_kabayan\app\Controllers\Pinjaman.php(71): CodeIgniter\Model->__call('getData', Array)
+#1 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Pinjaman->edit('1')
+#2 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pinjaman))
+#3 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp7\htdocs\perpus_kabayan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7\\htdoc...')
+#6 {main}
+CRITICAL - 2022-09-28 23:15:48 --> Too few arguments to function App\Controllers\Pinjaman::edit(), 0 passed in C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php on line 824 and exactly 1 expected
+#0 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Pinjaman->edit()
+#1 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pinjaman))
+#2 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp7\htdocs\perpus_kabayan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7\\htdoc...')
+#5 {main}
+CRITICAL - 2022-09-28 23:16:14 --> Too few arguments to function App\Controllers\Pinjaman::edit(), 0 passed in C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php on line 824 and exactly 1 expected
+#0 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Pinjaman->edit()
+#1 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pinjaman))
+#2 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp7\htdocs\perpus_kabayan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7\\htdoc...')
+#5 {main}
+CRITICAL - 2022-09-28 23:26:38 --> Invalid file: PinjamanDetail/index.php
+#0 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('PinjamanDetail/...')
+#1 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('PinjamanDetail/...', Array, true)
+#2 C:\xampp7\htdocs\perpus_kabayan\app\Controllers\PinjamanDetail.php(24): view('PinjamanDetail/...', Array)
+#3 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\PinjamanDetail->index('1')
+#4 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PinjamanDetail))
+#5 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp7\htdocs\perpus_kabayan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7\\htdoc...')
+#8 {main}
+CRITICAL - 2022-09-28 23:27:23 --> Invalid file: PinjamanDetail/index.php
+#0 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('PinjamanDetail/...')
+#1 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('PinjamanDetail/...', Array, true)
+#2 C:\xampp7\htdocs\perpus_kabayan\app\Controllers\PinjamanDetail.php(24): view('PinjamanDetail/...', Array)
+#3 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\PinjamanDetail->index('1')
+#4 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PinjamanDetail))
+#5 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp7\htdocs\perpus_kabayan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7\\htdoc...')
+#8 {main}
+ERROR - 2022-09-28 23:31:26 --> Column 'id_pinjaman' in where clause is ambiguous
+CRITICAL - 2022-09-28 23:31:26 --> Column 'id_pinjaman' in where clause is ambiguous
+#0 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp7\htdocs\perpus_kabayan\app\Models\PinjamanDetailModel.php(47): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp7\htdocs\perpus_kabayan\app\Controllers\PinjamanDetail.php(22): App\Models\PinjamanDetailModel->getPinjaman('1')
+#6 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\PinjamanDetail->index('1')
+#7 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PinjamanDetail))
+#8 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp7\htdocs\perpus_kabayan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7\\htdoc...')
+#11 {main}
+CRITICAL - 2022-09-28 23:31:48 --> Invalid file: PinjamanDetail/index.php
+#0 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('PinjamanDetail/...')
+#1 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('PinjamanDetail/...', Array, true)
+#2 C:\xampp7\htdocs\perpus_kabayan\app\Controllers\PinjamanDetail.php(25): view('PinjamanDetail/...', Array)
+#3 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\PinjamanDetail->index('1')
+#4 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PinjamanDetail))
+#5 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp7\htdocs\perpus_kabayan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7\\htdoc...')
+#8 {main}
+CRITICAL - 2022-09-28 23:32:06 --> Invalid file: PinjamanDetail/index.php
+#0 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('PinjamanDetail/...')
+#1 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('PinjamanDetail/...', Array, true)
+#2 C:\xampp7\htdocs\perpus_kabayan\app\Controllers\PinjamanDetail.php(25): view('PinjamanDetail/...', Array)
+#3 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\PinjamanDetail->index('1')
+#4 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PinjamanDetail))
+#5 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp7\htdocs\perpus_kabayan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7\\htdoc...')
+#8 {main}
+CRITICAL - 2022-09-28 23:32:33 --> Invalid file: PinjamanDetail/index.php
+#0 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('PinjamanDetail/...')
+#1 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('PinjamanDetail/...', Array, true)
+#2 C:\xampp7\htdocs\perpus_kabayan\app\Controllers\PinjamanDetail.php(25): view('PinjamanDetail/...', Array)
+#3 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\PinjamanDetail->index('1')
+#4 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PinjamanDetail))
+#5 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp7\htdocs\perpus_kabayan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7\\htdoc...')
+#8 {main}
+CRITICAL - 2022-09-28 23:33:35 --> Invalid file: PinjamanDetail/index.php
+#0 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('PinjamanDetail/...')
+#1 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('PinjamanDetail/...', Array, true)
+#2 C:\xampp7\htdocs\perpus_kabayan\app\Controllers\PinjamanDetail.php(25): view('PinjamanDetail/...', Array)
+#3 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\PinjamanDetail->index('1')
+#4 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PinjamanDetail))
+#5 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp7\htdocs\perpus_kabayan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7\\htdoc...')
+#8 {main}
+CRITICAL - 2022-09-28 23:34:43 --> Invalid file: PinjamanDetail/index.php
+#0 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('PinjamanDetail/...')
+#1 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('PinjamanDetail/...', Array, true)
+#2 C:\xampp7\htdocs\perpus_kabayan\app\Controllers\PinjamanDetail.php(25): view('PinjamanDetail/...', Array)
+#3 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\PinjamanDetail->index('1')
+#4 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PinjamanDetail))
+#5 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp7\htdocs\perpus_kabayan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7\\htdoc...')
+#8 {main}
+CRITICAL - 2022-09-28 23:36:01 --> Invalid file: PinjamanDetail/index.php
+#0 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('PinjamanDetail/...')
+#1 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('PinjamanDetail/...', Array, true)
+#2 C:\xampp7\htdocs\perpus_kabayan\app\Controllers\PinjamanDetail.php(25): view('PinjamanDetail/...', Array)
+#3 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\PinjamanDetail->index('1')
+#4 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PinjamanDetail))
+#5 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp7\htdocs\perpus_kabayan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7\\htdoc...')
+#8 {main}
+CRITICAL - 2022-09-28 23:36:08 --> Invalid file: PinjamanDetail/index.php
+#0 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('PinjamanDetail/...')
+#1 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('PinjamanDetail/...', Array, true)
+#2 C:\xampp7\htdocs\perpus_kabayan\app\Controllers\PinjamanDetail.php(25): view('PinjamanDetail/...', Array)
+#3 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\PinjamanDetail->index('1')
+#4 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PinjamanDetail))
+#5 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp7\htdocs\perpus_kabayan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7\\htdoc...')
+#8 {main}
+CRITICAL - 2022-09-28 23:37:24 --> Argument 2 passed to view() must be of the type array, string given, called in C:\xampp7\htdocs\perpus_kabayan\app\Controllers\PinjamanDetail.php on line 24
+#0 C:\xampp7\htdocs\perpus_kabayan\app\Controllers\PinjamanDetail.php(24): view('PinjamanDetail/...', '1')
+#1 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\PinjamanDetail->index('1')
+#2 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PinjamanDetail))
+#3 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp7\htdocs\perpus_kabayan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7\\htdoc...')
+#6 {main}
+CRITICAL - 2022-09-28 23:37:36 --> Invalid file: PinjamanDetail/index.php
+#0 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('PinjamanDetail/...')
+#1 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('PinjamanDetail/...', Array, true)
+#2 C:\xampp7\htdocs\perpus_kabayan\app\Controllers\PinjamanDetail.php(25): view('PinjamanDetail/...', Array)
+#3 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\PinjamanDetail->index('1')
+#4 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PinjamanDetail))
+#5 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp7\htdocs\perpus_kabayan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7\\htdoc...')
+#8 {main}
+CRITICAL - 2022-09-28 23:38:14 --> Invalid file: PinjamanDetail/index.php
+#0 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('PinjamanDetail/...')
+#1 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('PinjamanDetail/...', Array, true)
+#2 C:\xampp7\htdocs\perpus_kabayan\app\Controllers\PinjamanDetail.php(25): view('PinjamanDetail/...', Array)
+#3 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\PinjamanDetail->index('1')
+#4 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PinjamanDetail))
+#5 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp7\htdocs\perpus_kabayan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7\\htdoc...')
+#8 {main}
+CRITICAL - 2022-09-28 23:38:16 --> Invalid file: PinjamanDetail/index.php
+#0 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('PinjamanDetail/...')
+#1 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('PinjamanDetail/...', Array, true)
+#2 C:\xampp7\htdocs\perpus_kabayan\app\Controllers\PinjamanDetail.php(25): view('PinjamanDetail/...', Array)
+#3 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\PinjamanDetail->index('1')
+#4 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PinjamanDetail))
+#5 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp7\htdocs\perpus_kabayan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7\\htdoc...')
+#8 {main}
+CRITICAL - 2022-09-28 23:38:49 --> Invalid file: PinjamanDetail/index.php
+#0 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('PinjamanDetail/...')
+#1 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('PinjamanDetail/...', Array, true)
+#2 C:\xampp7\htdocs\perpus_kabayan\app\Controllers\PinjamanDetail.php(25): view('PinjamanDetail/...', Array)
+#3 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\PinjamanDetail->index('1')
+#4 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PinjamanDetail))
+#5 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp7\htdocs\perpus_kabayan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7\\htdoc...')
+#8 {main}
+CRITICAL - 2022-09-28 23:40:06 --> Invalid file: PinjamanDetail/index.php
+#0 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('PinjamanDetail/...')
+#1 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('PinjamanDetail/...', Array, true)
+#2 C:\xampp7\htdocs\perpus_kabayan\app\Controllers\PinjamanDetail.php(25): view('PinjamanDetail/...', Array)
+#3 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\PinjamanDetail->index('1')
+#4 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PinjamanDetail))
+#5 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp7\htdocs\perpus_kabayan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7\\htdoc...')
+#8 {main}
+CRITICAL - 2022-09-28 23:40:07 --> Invalid file: PinjamanDetail/index.php
+#0 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('PinjamanDetail/...')
+#1 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('PinjamanDetail/...', Array, true)
+#2 C:\xampp7\htdocs\perpus_kabayan\app\Controllers\PinjamanDetail.php(25): view('PinjamanDetail/...', Array)
+#3 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\PinjamanDetail->index('1')
+#4 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PinjamanDetail))
+#5 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp7\htdocs\perpus_kabayan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7\\htdoc...')
+#8 {main}
+CRITICAL - 2022-09-28 23:40:13 --> Invalid file: PinjamanDetail/index.php
+#0 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('PinjamanDetail/...')
+#1 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('PinjamanDetail/...', Array, true)
+#2 C:\xampp7\htdocs\perpus_kabayan\app\Controllers\PinjamanDetail.php(25): view('PinjamanDetail/...', Array)
+#3 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\PinjamanDetail->index('1')
+#4 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PinjamanDetail))
+#5 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp7\htdocs\perpus_kabayan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7\\htdoc...')
+#8 {main}
+CRITICAL - 2022-09-28 23:41:18 --> Undefined variable: judulMain
+#0 C:\xampp7\htdocs\perpus_kabayan\app\Views\pinjamandetail\index.php(9): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp7\\htdoc...', 9, Array)
+#1 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp7\\htdoc...')
+#2 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('PinjamanDetail/...', Array, true)
+#4 C:\xampp7\htdocs\perpus_kabayan\app\Controllers\PinjamanDetail.php(25): view('PinjamanDetail/...', Array)
+#5 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\PinjamanDetail->index('1')
+#6 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PinjamanDetail))
+#7 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp7\htdocs\perpus_kabayan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7\\htdoc...')
+#10 {main}
+CRITICAL - 2022-09-28 23:41:58 --> Undefined variable: judulMain
+#0 C:\xampp7\htdocs\perpus_kabayan\app\Views\pinjamandetail\index.php(9): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp7\\htdoc...', 9, Array)
+#1 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp7\\htdoc...')
+#2 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('PinjamanDetail/...', Array, true)
+#4 C:\xampp7\htdocs\perpus_kabayan\app\Controllers\PinjamanDetail.php(25): view('PinjamanDetail/...', Array)
+#5 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\PinjamanDetail->index('1')
+#6 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PinjamanDetail))
+#7 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp7\htdocs\perpus_kabayan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7\\htdoc...')
+#10 {main}
+CRITICAL - 2022-09-28 23:44:08 --> Call to undefined method App\Models\PinjamanModel::getPinjaman
+#0 C:\xampp7\htdocs\perpus_kabayan\app\Controllers\PinjamanDetail.php(23): CodeIgniter\Model->__call('getPinjaman', Array)
+#1 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\PinjamanDetail->index('1')
+#2 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PinjamanDetail))
+#3 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp7\htdocs\perpus_kabayan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7\\htdoc...')
+#6 {main}
+CRITICAL - 2022-09-28 23:44:19 --> Undefined variable: aksi
+#0 C:\xampp7\htdocs\perpus_kabayan\app\Views\pinjamandetail\index.php(10): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp7\\htdoc...', 10, Array)
+#1 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp7\\htdoc...')
+#2 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('PinjamanDetail/...', Array, true)
+#4 C:\xampp7\htdocs\perpus_kabayan\app\Controllers\PinjamanDetail.php(26): view('PinjamanDetail/...', Array)
+#5 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\PinjamanDetail->index('1')
+#6 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PinjamanDetail))
+#7 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp7\htdocs\perpus_kabayan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7\\htdoc...')
+#10 {main}
+CRITICAL - 2022-09-28 23:45:21 --> Undefined index: id_so_detail
+#0 C:\xampp7\htdocs\perpus_kabayan\app\Views\pinjamandetail\index.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp7\\htdoc...', 42, Array)
+#1 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp7\\htdoc...')
+#2 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('PinjamanDetail/...', Array, true)
+#4 C:\xampp7\htdocs\perpus_kabayan\app\Controllers\PinjamanDetail.php(27): view('PinjamanDetail/...', Array)
+#5 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\PinjamanDetail->index('1')
+#6 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PinjamanDetail))
+#7 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp7\htdocs\perpus_kabayan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7\\htdoc...')
+#10 {main}
+CRITICAL - 2022-09-28 23:45:52 --> Undefined index: id_so
+#0 C:\xampp7\htdocs\perpus_kabayan\app\Views\pinjamandetail\index.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp7\\htdoc...', 46, Array)
+#1 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp7\\htdoc...')
+#2 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('PinjamanDetail/...', Array, true)
+#4 C:\xampp7\htdocs\perpus_kabayan\app\Controllers\PinjamanDetail.php(27): view('PinjamanDetail/...', Array)
+#5 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\PinjamanDetail->index('1')
+#6 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PinjamanDetail))
+#7 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp7\htdocs\perpus_kabayan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7\\htdoc...')
+#10 {main}
+CRITICAL - 2022-09-28 23:55:56 --> Undefined variable: id_so
+#0 C:\xampp7\htdocs\perpus_kabayan\app\Views\pinjamandetail\tambah.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp7\\htdoc...', 11, Array)
+#1 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp7\\htdoc...')
+#2 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('PinjamanDetail/...', Array, true)
+#4 C:\xampp7\htdocs\perpus_kabayan\app\Controllers\PinjamanDetail.php(39): view('PinjamanDetail/...', Array)
+#5 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\PinjamanDetail->tambah('1')
+#6 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PinjamanDetail))
+#7 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp7\htdocs\perpus_kabayan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7\\htdoc...')
+#10 {main}
+CRITICAL - 2022-09-28 23:58:33 --> Undefined variable: id_so
+#0 C:\xampp7\htdocs\perpus_kabayan\app\Views\pinjamandetail\tambah.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp7\\htdoc...', 11, Array)
+#1 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp7\\htdoc...')
+#2 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('PinjamanDetail/...', Array, true)
+#4 C:\xampp7\htdocs\perpus_kabayan\app\Controllers\PinjamanDetail.php(40): view('PinjamanDetail/...', Array)
+#5 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\PinjamanDetail->tambah('1')
+#6 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PinjamanDetail))
+#7 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp7\htdocs\perpus_kabayan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7\\htdoc...')
+#10 {main}
+CRITICAL - 2022-09-28 23:58:35 --> Undefined variable: id_so
+#0 C:\xampp7\htdocs\perpus_kabayan\app\Views\pinjamandetail\tambah.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp7\\htdoc...', 11, Array)
+#1 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp7\\htdoc...')
+#2 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('PinjamanDetail/...', Array, true)
+#4 C:\xampp7\htdocs\perpus_kabayan\app\Controllers\PinjamanDetail.php(40): view('PinjamanDetail/...', Array)
+#5 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\PinjamanDetail->tambah('1')
+#6 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PinjamanDetail))
+#7 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp7\htdocs\perpus_kabayan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7\\htdoc...')
+#10 {main}
+CRITICAL - 2022-09-28 23:59:11 --> Undefined variable: id_pinjaman
+#0 C:\xampp7\htdocs\perpus_kabayan\app\Views\pinjamandetail\tambah.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp7\\htdoc...', 11, Array)
+#1 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp7\\htdoc...')
+#2 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('PinjamanDetail/...', Array, true)
+#4 C:\xampp7\htdocs\perpus_kabayan\app\Controllers\PinjamanDetail.php(40): view('PinjamanDetail/...', Array)
+#5 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\PinjamanDetail->tambah('1')
+#6 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PinjamanDetail))
+#7 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp7\htdocs\perpus_kabayan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp7\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7\\htdoc...')
+#10 {main}

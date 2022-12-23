@@ -1,0 +1,4 @@
+CRITICAL - 2022-11-25 15:47:04 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 C:\xampp\htdocs\perpus_kabayan\vendor\codeigniter4\framework\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#1 C:\xampp\htdocs\perpus_kabayan\spark(45): require('C:\\xampp\\htdocs...')
+#2 {main}

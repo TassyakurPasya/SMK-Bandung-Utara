@@ -1,0 +1,445 @@
+CRITICAL - 2021-12-13 01:09:17 --> Too few arguments to function App\Controllers\CustomerDetail::index(), 0 passed in C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php on line 824 and exactly 1 expected
+#0 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\CustomerDetail->index()
+#1 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerDetail))
+#2 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp7\htdocs\warehouse_manggala\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7\\htdoc...')
+#5 {main}
+CRITICAL - 2021-12-13 01:13:32 --> Too few arguments to function App\Controllers\CustomerDetail::index(), 0 passed in C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php on line 824 and exactly 1 expected
+#0 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\CustomerDetail->index()
+#1 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerDetail))
+#2 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp7\htdocs\warehouse_manggala\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7\\htdoc...')
+#5 {main}
+CRITICAL - 2021-12-13 01:13:33 --> Too few arguments to function App\Controllers\CustomerDetail::index(), 0 passed in C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php on line 824 and exactly 1 expected
+#0 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\CustomerDetail->index()
+#1 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerDetail))
+#2 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp7\htdocs\warehouse_manggala\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7\\htdoc...')
+#5 {main}
+CRITICAL - 2021-12-13 01:13:35 --> Too few arguments to function App\Controllers\CustomerDetail::tambah(), 0 passed in C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php on line 824 and exactly 1 expected
+#0 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\CustomerDetail->tambah()
+#1 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerDetail))
+#2 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp7\htdocs\warehouse_manggala\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7\\htdoc...')
+#5 {main}
+CRITICAL - 2021-12-13 01:13:36 --> Too few arguments to function App\Controllers\CustomerDetail::tambah(), 0 passed in C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php on line 824 and exactly 1 expected
+#0 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\CustomerDetail->tambah()
+#1 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerDetail))
+#2 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp7\htdocs\warehouse_manggala\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7\\htdoc...')
+#5 {main}
+CRITICAL - 2021-12-13 01:14:40 --> Too few arguments to function App\Controllers\CustomerDetail::index(), 0 passed in C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php on line 824 and exactly 1 expected
+#0 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\CustomerDetail->index()
+#1 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerDetail))
+#2 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp7\htdocs\warehouse_manggala\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7\\htdoc...')
+#5 {main}
+CRITICAL - 2021-12-13 01:15:16 --> Too few arguments to function App\Controllers\CustomerDetail::index(), 0 passed in C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php on line 824 and exactly 1 expected
+#0 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\CustomerDetail->index()
+#1 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerDetail))
+#2 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp7\htdocs\warehouse_manggala\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7\\htdoc...')
+#5 {main}
+CRITICAL - 2021-12-13 01:17:53 --> syntax error, unexpected '$this' (T_VARIABLE)
+#0 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute('CustomerDetail/...')
+#1 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle('CustomerDetail/...')
+#2 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp7\htdocs\warehouse_manggala\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7\\htdoc...')
+#6 {main}
+CRITICAL - 2021-12-13 01:17:55 --> syntax error, unexpected '$this' (T_VARIABLE)
+#0 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute('CustomerDetail/...')
+#1 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle('CustomerDetail/...')
+#2 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp7\htdocs\warehouse_manggala\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7\\htdoc...')
+#6 {main}
+CRITICAL - 2021-12-13 01:23:41 --> Too few arguments to function App\Controllers\CustomerDetail::index(), 0 passed in C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php on line 824 and exactly 1 expected
+#0 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\CustomerDetail->index()
+#1 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerDetail))
+#2 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp7\htdocs\warehouse_manggala\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7\\htdoc...')
+#5 {main}
+CRITICAL - 2021-12-13 01:25:36 --> Undefined variable: judulMain
+#0 C:\xampp7\htdocs\warehouse_manggala\app\Views\customerdetail\tambah.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp7\\htdoc...', 11, Array)
+#1 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp7\\htdoc...')
+#2 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('CustomerDetail/...', Array, true)
+#4 C:\xampp7\htdocs\warehouse_manggala\app\Controllers\CustomerDetail.php(40): view('CustomerDetail/...', Array)
+#5 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\CustomerDetail->tambah('2')
+#6 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerDetail))
+#7 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp7\htdocs\warehouse_manggala\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7\\htdoc...')
+#10 {main}
+CRITICAL - 2021-12-13 01:26:41 --> Invalid file: /CustomerDetail/ubah.php
+#0 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/CustomerDetail...')
+#1 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('/CustomerDetail...', Array, true)
+#2 C:\xampp7\htdocs\warehouse_manggala\app\Controllers\CustomerDetail.php(87): view('/CustomerDetail...', Array)
+#3 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\CustomerDetail->edit('25')
+#4 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerDetail))
+#5 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp7\htdocs\warehouse_manggala\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7\\htdoc...')
+#8 {main}
+CRITICAL - 2021-12-13 01:30:37 --> Undefined variable: judulMain
+#0 C:\xampp7\htdocs\warehouse_manggala\app\Views\customerdetail\tambah.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp7\\htdoc...', 11, Array)
+#1 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp7\\htdoc...')
+#2 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('CustomerDetail/...', Array, true)
+#4 C:\xampp7\htdocs\warehouse_manggala\app\Controllers\CustomerDetail.php(40): view('CustomerDetail/...', Array)
+#5 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\CustomerDetail->tambah('2')
+#6 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerDetail))
+#7 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp7\htdocs\warehouse_manggala\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7\\htdoc...')
+#10 {main}
+CRITICAL - 2021-12-13 01:31:17 --> Too few arguments to function App\Controllers\CustomerDetail::index(), 0 passed in C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php on line 824 and exactly 1 expected
+#0 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\CustomerDetail->index()
+#1 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerDetail))
+#2 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp7\htdocs\warehouse_manggala\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7\\htdoc...')
+#5 {main}
+CRITICAL - 2021-12-13 01:31:31 --> Too few arguments to function App\Controllers\CustomerDetail::index(), 0 passed in C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php on line 824 and exactly 1 expected
+#0 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\CustomerDetail->index()
+#1 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerDetail))
+#2 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp7\htdocs\warehouse_manggala\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7\\htdoc...')
+#5 {main}
+CRITICAL - 2021-12-13 01:31:53 --> Undefined variable: judulMain
+#0 C:\xampp7\htdocs\warehouse_manggala\app\Views\customerdetail\ubah.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp7\\htdoc...', 11, Array)
+#1 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp7\\htdoc...')
+#2 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('/CustomerDetail...', Array, true)
+#4 C:\xampp7\htdocs\warehouse_manggala\app\Controllers\CustomerDetail.php(87): view('/CustomerDetail...', Array)
+#5 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\CustomerDetail->edit('26')
+#6 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerDetail))
+#7 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp7\htdocs\warehouse_manggala\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7\\htdoc...')
+#10 {main}
+CRITICAL - 2021-12-13 01:32:07 --> Undefined index: id
+#0 C:\xampp7\htdocs\warehouse_manggala\app\Views\customerdetail\ubah.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp7\\htdoc...', 24, Array)
+#1 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp7\\htdoc...')
+#2 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('/CustomerDetail...', Array, true)
+#4 C:\xampp7\htdocs\warehouse_manggala\app\Controllers\CustomerDetail.php(87): view('/CustomerDetail...', Array)
+#5 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\CustomerDetail->edit('26')
+#6 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerDetail))
+#7 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp7\htdocs\warehouse_manggala\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7\\htdoc...')
+#10 {main}
+CRITICAL - 2021-12-13 01:33:31 --> Undefined index: id
+#0 C:\xampp7\htdocs\warehouse_manggala\app\Views\customerdetail\ubah.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp7\\htdoc...', 24, Array)
+#1 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp7\\htdoc...')
+#2 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('/CustomerDetail...', Array, true)
+#4 C:\xampp7\htdocs\warehouse_manggala\app\Controllers\CustomerDetail.php(87): view('/CustomerDetail...', Array)
+#5 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\CustomerDetail->edit('26')
+#6 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerDetail))
+#7 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp7\htdocs\warehouse_manggala\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7\\htdoc...')
+#10 {main}
+CRITICAL - 2021-12-13 01:33:32 --> Undefined index: id
+#0 C:\xampp7\htdocs\warehouse_manggala\app\Views\customerdetail\ubah.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp7\\htdoc...', 24, Array)
+#1 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp7\\htdoc...')
+#2 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('/CustomerDetail...', Array, true)
+#4 C:\xampp7\htdocs\warehouse_manggala\app\Controllers\CustomerDetail.php(87): view('/CustomerDetail...', Array)
+#5 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\CustomerDetail->edit('26')
+#6 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerDetail))
+#7 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp7\htdocs\warehouse_manggala\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7\\htdoc...')
+#10 {main}
+CRITICAL - 2021-12-13 01:33:34 --> Undefined index: id
+#0 C:\xampp7\htdocs\warehouse_manggala\app\Views\customerdetail\ubah.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp7\\htdoc...', 24, Array)
+#1 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp7\\htdoc...')
+#2 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('/CustomerDetail...', Array, true)
+#4 C:\xampp7\htdocs\warehouse_manggala\app\Controllers\CustomerDetail.php(87): view('/CustomerDetail...', Array)
+#5 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\CustomerDetail->edit('26')
+#6 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerDetail))
+#7 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp7\htdocs\warehouse_manggala\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7\\htdoc...')
+#10 {main}
+CRITICAL - 2021-12-13 01:33:42 --> Undefined index: id
+#0 C:\xampp7\htdocs\warehouse_manggala\app\Views\customerdetail\ubah.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp7\\htdoc...', 24, Array)
+#1 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp7\\htdoc...')
+#2 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('/CustomerDetail...', Array, true)
+#4 C:\xampp7\htdocs\warehouse_manggala\app\Controllers\CustomerDetail.php(87): view('/CustomerDetail...', Array)
+#5 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\CustomerDetail->edit('26')
+#6 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerDetail))
+#7 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp7\htdocs\warehouse_manggala\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7\\htdoc...')
+#10 {main}
+CRITICAL - 2021-12-13 01:34:52 --> Undefined index: alamat
+#0 C:\xampp7\htdocs\warehouse_manggala\app\Views\customerdetail\ubah.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp7\\htdoc...', 29, Array)
+#1 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp7\\htdoc...')
+#2 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('/CustomerDetail...', Array, true)
+#4 C:\xampp7\htdocs\warehouse_manggala\app\Controllers\CustomerDetail.php(87): view('/CustomerDetail...', Array)
+#5 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\CustomerDetail->edit('26')
+#6 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerDetail))
+#7 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp7\htdocs\warehouse_manggala\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7\\htdoc...')
+#10 {main}
+CRITICAL - 2021-12-13 01:35:27 --> Undefined variable: model
+#0 C:\xampp7\htdocs\warehouse_manggala\app\Controllers\CustomerDetail.php(80): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp7\\htdoc...', 80, Array)
+#1 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\CustomerDetail->edit('26')
+#2 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerDetail))
+#3 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp7\htdocs\warehouse_manggala\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7\\htdoc...')
+#6 {main}
+CRITICAL - 2021-12-13 01:35:28 --> Undefined variable: model
+#0 C:\xampp7\htdocs\warehouse_manggala\app\Controllers\CustomerDetail.php(80): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp7\\htdoc...', 80, Array)
+#1 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\CustomerDetail->edit('26')
+#2 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerDetail))
+#3 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp7\htdocs\warehouse_manggala\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7\\htdoc...')
+#6 {main}
+CRITICAL - 2021-12-13 01:37:09 --> Undefined variable: judulMain
+#0 C:\xampp7\htdocs\warehouse_manggala\app\Views\customerdetail\ubah.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp7\\htdoc...', 11, Array)
+#1 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp7\\htdoc...')
+#2 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('/CustomerDetail...', Array, true)
+#4 C:\xampp7\htdocs\warehouse_manggala\app\Controllers\CustomerDetail.php(87): view('/CustomerDetail...', Array)
+#5 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\CustomerDetail->edit('26')
+#6 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerDetail))
+#7 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp7\htdocs\warehouse_manggala\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7\\htdoc...')
+#10 {main}
+CRITICAL - 2021-12-13 01:37:25 --> Undefined index: id
+#0 C:\xampp7\htdocs\warehouse_manggala\app\Views\customerdetail\ubah.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp7\\htdoc...', 24, Array)
+#1 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp7\\htdoc...')
+#2 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('/CustomerDetail...', Array, true)
+#4 C:\xampp7\htdocs\warehouse_manggala\app\Controllers\CustomerDetail.php(87): view('/CustomerDetail...', Array)
+#5 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\CustomerDetail->edit('26')
+#6 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerDetail))
+#7 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp7\htdocs\warehouse_manggala\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7\\htdoc...')
+#10 {main}
+CRITICAL - 2021-12-13 01:37:45 --> Undefined index: data
+#0 C:\xampp7\htdocs\warehouse_manggala\app\Views\customerdetail\ubah.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp7\\htdoc...', 24, Array)
+#1 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp7\\htdoc...')
+#2 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('/CustomerDetail...', Array, true)
+#4 C:\xampp7\htdocs\warehouse_manggala\app\Controllers\CustomerDetail.php(87): view('/CustomerDetail...', Array)
+#5 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\CustomerDetail->edit('26')
+#6 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerDetail))
+#7 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp7\htdocs\warehouse_manggala\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7\\htdoc...')
+#10 {main}
+CRITICAL - 2021-12-13 01:38:35 --> Undefined index: id
+#0 C:\xampp7\htdocs\warehouse_manggala\app\Views\customerdetail\ubah.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp7\\htdoc...', 24, Array)
+#1 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp7\\htdoc...')
+#2 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('/CustomerDetail...', Array, true)
+#4 C:\xampp7\htdocs\warehouse_manggala\app\Controllers\CustomerDetail.php(87): view('/CustomerDetail...', Array)
+#5 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\CustomerDetail->edit('26')
+#6 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerDetail))
+#7 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp7\htdocs\warehouse_manggala\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7\\htdoc...')
+#10 {main}
+CRITICAL - 2021-12-13 01:39:58 --> Undefined index: id
+#0 C:\xampp7\htdocs\warehouse_manggala\app\Views\customerdetail\ubah.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp7\\htdoc...', 24, Array)
+#1 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp7\\htdoc...')
+#2 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('/CustomerDetail...', Array, true)
+#4 C:\xampp7\htdocs\warehouse_manggala\app\Controllers\CustomerDetail.php(87): view('/CustomerDetail...', Array)
+#5 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\CustomerDetail->edit('26')
+#6 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerDetail))
+#7 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp7\htdocs\warehouse_manggala\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7\\htdoc...')
+#10 {main}
+CRITICAL - 2021-12-13 01:39:59 --> Undefined index: id
+#0 C:\xampp7\htdocs\warehouse_manggala\app\Views\customerdetail\ubah.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp7\\htdoc...', 24, Array)
+#1 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp7\\htdoc...')
+#2 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('/CustomerDetail...', Array, true)
+#4 C:\xampp7\htdocs\warehouse_manggala\app\Controllers\CustomerDetail.php(87): view('/CustomerDetail...', Array)
+#5 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\CustomerDetail->edit('26')
+#6 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerDetail))
+#7 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp7\htdocs\warehouse_manggala\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7\\htdoc...')
+#10 {main}
+CRITICAL - 2021-12-13 01:40:46 --> Undefined index: id
+#0 C:\xampp7\htdocs\warehouse_manggala\app\Views\customerdetail\ubah.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp7\\htdoc...', 24, Array)
+#1 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp7\\htdoc...')
+#2 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('/CustomerDetail...', Array, true)
+#4 C:\xampp7\htdocs\warehouse_manggala\app\Controllers\CustomerDetail.php(87): view('/CustomerDetail...', Array)
+#5 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\CustomerDetail->edit('26')
+#6 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerDetail))
+#7 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp7\htdocs\warehouse_manggala\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7\\htdoc...')
+#10 {main}
+CRITICAL - 2021-12-13 01:40:47 --> Undefined index: id
+#0 C:\xampp7\htdocs\warehouse_manggala\app\Views\customerdetail\ubah.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp7\\htdoc...', 24, Array)
+#1 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp7\\htdoc...')
+#2 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('/CustomerDetail...', Array, true)
+#4 C:\xampp7\htdocs\warehouse_manggala\app\Controllers\CustomerDetail.php(87): view('/CustomerDetail...', Array)
+#5 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\CustomerDetail->edit('26')
+#6 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerDetail))
+#7 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp7\htdocs\warehouse_manggala\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7\\htdoc...')
+#10 {main}
+CRITICAL - 2021-12-13 01:40:48 --> Undefined index: id
+#0 C:\xampp7\htdocs\warehouse_manggala\app\Views\customerdetail\ubah.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp7\\htdoc...', 24, Array)
+#1 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp7\\htdoc...')
+#2 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('/CustomerDetail...', Array, true)
+#4 C:\xampp7\htdocs\warehouse_manggala\app\Controllers\CustomerDetail.php(87): view('/CustomerDetail...', Array)
+#5 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\CustomerDetail->edit('26')
+#6 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerDetail))
+#7 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp7\htdocs\warehouse_manggala\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7\\htdoc...')
+#10 {main}
+CRITICAL - 2021-12-13 01:40:48 --> Undefined index: id
+#0 C:\xampp7\htdocs\warehouse_manggala\app\Views\customerdetail\ubah.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp7\\htdoc...', 24, Array)
+#1 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp7\\htdoc...')
+#2 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('/CustomerDetail...', Array, true)
+#4 C:\xampp7\htdocs\warehouse_manggala\app\Controllers\CustomerDetail.php(87): view('/CustomerDetail...', Array)
+#5 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\CustomerDetail->edit('26')
+#6 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerDetail))
+#7 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp7\htdocs\warehouse_manggala\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7\\htdoc...')
+#10 {main}
+CRITICAL - 2021-12-13 01:40:48 --> Undefined index: id
+#0 C:\xampp7\htdocs\warehouse_manggala\app\Views\customerdetail\ubah.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp7\\htdoc...', 24, Array)
+#1 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp7\\htdoc...')
+#2 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('/CustomerDetail...', Array, true)
+#4 C:\xampp7\htdocs\warehouse_manggala\app\Controllers\CustomerDetail.php(87): view('/CustomerDetail...', Array)
+#5 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\CustomerDetail->edit('26')
+#6 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerDetail))
+#7 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp7\htdocs\warehouse_manggala\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7\\htdoc...')
+#10 {main}
+CRITICAL - 2021-12-13 01:41:20 --> Undefined index: id
+#0 C:\xampp7\htdocs\warehouse_manggala\app\Views\customerdetail\ubah.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp7\\htdoc...', 24, Array)
+#1 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp7\\htdoc...')
+#2 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('/CustomerDetail...', Array, true)
+#4 C:\xampp7\htdocs\warehouse_manggala\app\Controllers\CustomerDetail.php(87): view('/CustomerDetail...', Array)
+#5 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\CustomerDetail->edit('26')
+#6 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerDetail))
+#7 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp7\htdocs\warehouse_manggala\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7\\htdoc...')
+#10 {main}
+CRITICAL - 2021-12-13 01:41:27 --> Undefined index: id
+#0 C:\xampp7\htdocs\warehouse_manggala\app\Views\customerdetail\ubah.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp7\\htdoc...', 24, Array)
+#1 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp7\\htdoc...')
+#2 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('/CustomerDetail...', Array, true)
+#4 C:\xampp7\htdocs\warehouse_manggala\app\Controllers\CustomerDetail.php(87): view('/CustomerDetail...', Array)
+#5 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\CustomerDetail->edit('11')
+#6 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerDetail))
+#7 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp7\htdocs\warehouse_manggala\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7\\htdoc...')
+#10 {main}
+CRITICAL - 2021-12-13 01:48:28 --> Undefined offset: 0
+#0 C:\xampp7\htdocs\warehouse_manggala\app\Views\customerdetail\ubah.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp7\\htdoc...', 24, Array)
+#1 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp7\\htdoc...')
+#2 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('/CustomerDetail...', Array, true)
+#4 C:\xampp7\htdocs\warehouse_manggala\app\Controllers\CustomerDetail.php(87): view('/CustomerDetail...', Array)
+#5 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\CustomerDetail->edit('11')
+#6 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerDetail))
+#7 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp7\htdocs\warehouse_manggala\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7\\htdoc...')
+#10 {main}
+CRITICAL - 2021-12-13 01:53:37 --> Too few arguments to function App\Controllers\CustomerDetail::index(), 0 passed in C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php on line 824 and exactly 1 expected
+#0 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\CustomerDetail->index()
+#1 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerDetail))
+#2 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp7\htdocs\warehouse_manggala\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7\\htdoc...')
+#5 {main}
+CRITICAL - 2021-12-13 01:56:41 --> Too few arguments to function App\Controllers\CustomerDetail::index(), 0 passed in C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php on line 824 and exactly 1 expected
+#0 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\CustomerDetail->index()
+#1 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerDetail))
+#2 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp7\htdocs\warehouse_manggala\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7\\htdoc...')
+#5 {main}
+CRITICAL - 2021-12-13 01:57:45 --> Too few arguments to function App\Controllers\CustomerDetail::index(), 0 passed in C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php on line 824 and exactly 1 expected
+#0 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\CustomerDetail->index()
+#1 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerDetail))
+#2 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp7\htdocs\warehouse_manggala\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7\\htdoc...')
+#5 {main}
+CRITICAL - 2021-12-13 01:57:46 --> Too few arguments to function App\Controllers\CustomerDetail::index(), 0 passed in C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php on line 824 and exactly 1 expected
+#0 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\CustomerDetail->index()
+#1 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerDetail))
+#2 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp7\htdocs\warehouse_manggala\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7\\htdoc...')
+#5 {main}
+CRITICAL - 2021-12-13 01:58:22 --> Too few arguments to function App\Controllers\CustomerDetail::index(), 0 passed in C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php on line 824 and exactly 1 expected
+#0 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\CustomerDetail->index()
+#1 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerDetail))
+#2 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp7\htdocs\warehouse_manggala\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7\\htdoc...')
+#5 {main}
+CRITICAL - 2021-12-13 01:59:53 --> Too few arguments to function App\Controllers\CustomerDetail::index(), 0 passed in C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php on line 824 and exactly 1 expected
+#0 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\CustomerDetail->index()
+#1 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerDetail))
+#2 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp7\htdocs\warehouse_manggala\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7\\htdoc...')
+#5 {main}
+CRITICAL - 2021-12-13 01:59:54 --> Too few arguments to function App\Controllers\CustomerDetail::index(), 0 passed in C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php on line 824 and exactly 1 expected
+#0 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\CustomerDetail->index()
+#1 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerDetail))
+#2 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp7\htdocs\warehouse_manggala\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7\\htdoc...')
+#5 {main}
+CRITICAL - 2021-12-13 02:00:00 --> A non-numeric value encountered
+#0 C:\xampp7\htdocs\warehouse_manggala\app\Controllers\CustomerDetail.php(123): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'C:\\xampp7\\htdoc...', 123, Array)
+#1 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\CustomerDetail->update('11')
+#2 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerDetail))
+#3 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp7\htdocs\warehouse_manggala\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7\\htdoc...')
+#6 {main}

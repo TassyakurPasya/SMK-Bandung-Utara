@@ -1,0 +1,114 @@
+CRITICAL - 2022-01-05 00:52:17 --> Undefined offset: 0
+#0 C:\xampp7\htdocs\warehouse_manggala\app\Controllers\PO.php(58): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp7\\htdoc...', 58, Array)
+#1 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\PO->save()
+#2 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PO))
+#3 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp7\htdocs\warehouse_manggala\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7\\htdoc...')
+#6 {main}
+CRITICAL - 2022-01-05 00:54:14 --> Undefined offset: 0
+#0 C:\xampp7\htdocs\warehouse_manggala\app\Controllers\PO.php(58): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp7\\htdoc...', 58, Array)
+#1 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\PO->save()
+#2 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PO))
+#3 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp7\htdocs\warehouse_manggala\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7\\htdoc...')
+#6 {main}
+CRITICAL - 2022-01-05 00:54:31 --> Undefined offset: 0
+#0 C:\xampp7\htdocs\warehouse_manggala\app\Controllers\PO.php(58): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp7\\htdoc...', 58, Array)
+#1 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\PO->save()
+#2 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PO))
+#3 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp7\htdocs\warehouse_manggala\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7\\htdoc...')
+#6 {main}
+ERROR - 2022-01-05 00:56:44 --> Unknown column 'berat_total' in 'field list'
+CRITICAL - 2022-01-05 00:56:44 --> Unknown column 'berat_total' in 'field list'
+#0 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `po...', 0)
+#1 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `po...')
+#2 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `po...')
+#3 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query('INSERT INTO `po...', Array, false)
+#4 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp7\htdocs\warehouse_manggala\app\Controllers\PODetail.php(77): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\PODetail->save()
+#10 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PODetail))
+#11 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp7\htdocs\warehouse_manggala\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7\\htdoc...')
+#14 {main}
+CRITICAL - 2022-01-05 01:02:47 --> Undefined offset: 0
+#0 C:\xampp7\htdocs\warehouse_manggala\app\Controllers\PO.php(58): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp7\\htdoc...', 58, Array)
+#1 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\PO->save()
+#2 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PO))
+#3 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp7\htdocs\warehouse_manggala\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7\\htdoc...')
+#6 {main}
+CRITICAL - 2022-01-05 01:03:41 --> Undefined offset: 0
+#0 C:\xampp7\htdocs\warehouse_manggala\app\Controllers\PO.php(58): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp7\\htdoc...', 58, Array)
+#1 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\PO->save()
+#2 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PO))
+#3 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp7\htdocs\warehouse_manggala\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7\\htdoc...')
+#6 {main}
+CRITICAL - 2022-01-05 01:03:55 --> substr() expects parameter 1 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'substr() expect...', 'C:\\xampp7\\htdoc...', 58, Array)
+#1 C:\xampp7\htdocs\warehouse_manggala\app\Controllers\PO.php(58): substr(Array, 6)
+#2 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\PO->save()
+#3 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PO))
+#4 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp7\htdocs\warehouse_manggala\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7\\htdoc...')
+#7 {main}
+CRITICAL - 2022-01-05 01:04:14 --> syntax error, unexpected ')'
+#0 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute('PO/save')
+#1 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle('PO/save')
+#2 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp7\htdocs\warehouse_manggala\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7\\htdoc...')
+#6 {main}
+CRITICAL - 2022-01-05 01:05:37 --> Undefined offset: 0
+#0 C:\xampp7\htdocs\warehouse_manggala\app\Controllers\PO.php(62): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp7\\htdoc...', 62, Array)
+#1 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\PO->save()
+#2 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PO))
+#3 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp7\htdocs\warehouse_manggala\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7\\htdoc...')
+#6 {main}
+CRITICAL - 2022-01-05 01:05:53 --> Undefined offset: 0
+#0 C:\xampp7\htdocs\warehouse_manggala\app\Controllers\PO.php(62): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp7\\htdoc...', 62, Array)
+#1 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\PO->save()
+#2 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PO))
+#3 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp7\htdocs\warehouse_manggala\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7\\htdoc...')
+#6 {main}
+CRITICAL - 2022-01-05 01:06:02 --> Undefined offset: 0
+#0 C:\xampp7\htdocs\warehouse_manggala\app\Controllers\PO.php(58): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp7\\htdoc...', 58, Array)
+#1 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\PO->save()
+#2 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PO))
+#3 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp7\htdocs\warehouse_manggala\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7\\htdoc...')
+#6 {main}
+CRITICAL - 2022-01-05 01:06:14 --> Undefined offset: 0
+#0 C:\xampp7\htdocs\warehouse_manggala\app\Controllers\PO.php(58): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp7\\htdoc...', 58, Array)
+#1 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\PO->save()
+#2 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PO))
+#3 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp7\htdocs\warehouse_manggala\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7\\htdoc...')
+#6 {main}
+CRITICAL - 2022-01-05 01:06:33 --> Undefined offset: 0
+#0 C:\xampp7\htdocs\warehouse_manggala\app\Controllers\PO.php(59): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp7\\htdoc...', 59, Array)
+#1 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\PO->save()
+#2 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PO))
+#3 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp7\htdocs\warehouse_manggala\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp7\htdocs\warehouse_manggala\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7\\htdoc...')
+#6 {main}
